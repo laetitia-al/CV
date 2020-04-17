@@ -1,0 +1,284 @@
+body /* Image d'ordinateur en fond en haut */
+{
+    background-image : url("image/image_fond_CV.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    color: black;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+img /* taille de la photo du CV */
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    }
+
+/* Colonne du coté */
+
+#cote
+{
+
+    border: 10px 10px rgb(126, 26, 17);
+    background-color: rgb(126, 26, 17);
+    margin-top: 0%;
+    margin-left: 3%;
+    margin-right: 80%;
+}
+
+#Presentation
+{
+
+    border: 3px 3px rgb(126, 26, 17);
+    background-color: rgb(255, 255, 255);
+    margin-top: -20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    position: relative;
+
+}
+
+#TitrePresentation
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 1,7em;
+    margin-top: 0%;
+}
+
+
+h3
+{
+    color:rgb(126, 26, 17); 
+    font-size: bold;
+    text-align: center;
+    font-size: 1,5em;
+    margin-top: 0%;
+}
+
+#Presentation p
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 1,5em;
+    font-weight: bold;
+    margin-top: 0%;
+}
+#Presentation em
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 1,7em;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+#Presentation span
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 1,7em;
+    margin-top: 0%;
+}
+
+
+#StyleGauche
+{
+    color: rgb(234, 232, 232);
+    text-align: center;
+}
+
+#StyleGauche ul
+{
+    list-style-type: none; 
+    margin-left:0;
+    padding-left:0;
+}
+.TitreGauche
+{
+    color: rgb(234, 232, 232);
+    font-size: 100%;
+    text-align: center;
+}
+
+/* flex box */
+#conteneur {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+#conteneur ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.element {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+#conteneur li {
+    text-align: center;
+    margin: auto;
+}
+
+#page {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.colonne:nth-child(2)
+{
+    align-self: center;
+    align-items: stretch;
+    text-align: center;
+}
+
+.colonne:nth-child(1)
+{
+    align-self: flex-end;
+    text-align: center;
+}
+
+section {
+    display: flex;
+}
+
+/* élement de droite */
+
+#Profil
+
+{
+    padding: 2%;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-top: 11%;
+    margin-left: 10%;
+    margin-right: 0%;
+    flex-wrap: nowrap;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1em;
+    color: #181818;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+a {
+    color: black;
+    text-decoration: wavy;
+}
+
+.element em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* footer */
+
+footer {
+    text-align: right;
+}
+
+
+/* Responsive */
+
+@media all and (max-width: 1024px)
+
+{
+
+    #page
+
+    {
+
+        width: auto;
+
+    }
+
+}
+
+@media all and (max-width: 1024px)
+
+{
+
+    nav
+
+    {
+
+        width: auto;
+
+        text-align: left;
+
+    }
+
+    
+    nav ul
+    {
+
+        flex-direction: column;
+
+    }
+
+    nav li
+    {
+
+        padding-left: 4px;
+
+    }
+
+    nav a
+    {
+
+        font-size: 1.1em;
+
+    }
+
+    nav a:hover
+    {
+
+        border-bottom: 0;
+
+    }
+
+}
+
+
+
